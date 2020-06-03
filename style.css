@@ -1,11 +1,21 @@
+html {
+	box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+	box-sizing: inherit;
+  }
+
 body
 {
 	background-color: #444444;
-	margin: 0;
 	color: #fff;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 18px;
 }
+
 
 h1.toph
 {
@@ -71,7 +81,7 @@ h1.toph
 	padding-left: 8px;
 	padding-right: 8px;
 	border-right: 1px solid #fff;
-	width: 160px;
+	width: 180px;
 }
 
 .menu	>li:first-child
@@ -92,12 +102,16 @@ h1.toph
 	color: #990000;
 }
 
+.entry__flexbox{
+	display: flex;
+	margin: 0 16px;
+	justify-content: center;
+}
+
 .wstep
 {
 	text-align: center;
 	width: 1000px;
-	margin-left: auto;
-	margin-right: auto;
 	padding-bottom: 10px;
 	padding-top: 15px;
 }
@@ -106,18 +120,11 @@ h1.toph
 {
 	text-align: center;
 	width: 1000px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-bottom: 10px;
-	padding-top: 15px;
+	padding: 16px;
 }
 
 .wstep2
 {
-	text-align: center;
-	width: 980px;
-	margin-left: auto;
-	margin-right: auto;
 	padding: 10px;
 	text-align: justify;
 }
@@ -142,20 +149,32 @@ h2
 	margin-top: 20px;
 }
 
-.wagi a
-{
-	opacity: 0.9;
-	transition-duration: .2s;
+.section{
+	display: flex;
+	justify-content: center;
 }
 
-.wagi a:hover
-{
-	opacity: 1;
+.section--black{
+	background-color: #363636;
 }
 
-.wagi
-{
-	display: inline-block;
+.wagi{
+	width: 1000px;
+	padding: 16px;
+}
+
+.flexbox{
+	display:flex;
+	flex-flow: row wrap;
+}
+
+.flexbox__item{
+	padding: 16px;
+	flex-grow: 1;
+	text-align: center;
+}
+
+.paragraph{
 	font-size: 16px;
 }
 
@@ -223,14 +242,11 @@ figcaption
 	padding-top: 15px;
 }
 
-#rozp
+.rozp
 {
-	margin-left:auto;
-	margin-right:auto;	
 	width:1000px;
 	text-align:center;
-	padding-top:10px;
-	padding-bottom: 30px;
+	padding:16px ;
 }
 
 article
@@ -253,19 +269,24 @@ article
 	text-align: center;
 }
 	
-p.ss
+.ss
 {
 	text-align: left;
 	font-size: 15px;
 	color: #2288FF;
 	margin-left: 15px;
 	text-align: justify;
+	font-weight: normal;
 }	
 
+.button-width{
+	display: flex;
+	justify-content: center;
+}
+
 .button
-{
-	margin-left: auto;
-	margin-right: auto;
+{	
+
 	width: 1000px;
 	text-align: center;
 	margin-top: 10px;
@@ -548,4 +569,25 @@ img
 h5{
 	margin:0;
 	padding: 0;
+}
+
+.top-button{
+	position:fixed;
+	bottom: 30px;
+	right: 30px;
+	width: 46px;
+	height: 46px;
+	background: #3399ff;
+	border-radius: 5px;
+}
+
+.top-button:hover{
+	background: #44aaff;
+	transition-duration: .3s;
+}
+
+.six-heading{
+	font-weight: normal;
+	font-size: 18px;
+	margin-bottom: 0;
 }
