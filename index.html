@@ -23,7 +23,8 @@
         <a class="header__top" href="#hero" title="Wróć na górę strony"
           ><img src="./img/sp.png" class="logo" alt="logo firmy d&k kasy wagi"
         /></a>
-        <nav class="navigation">
+       
+        <nav class="navigation navigation--js">
           <ul class="navigation__list">
             <li class="navigation__list">
               <a class="navigation__link" href="index.html">Strona główna</a>
@@ -42,15 +43,18 @@
             </li>
           </ul>
         </nav>
+        <button class="hamburger hamburger--js">JJ</button>
       </div>
     </header>
     <main class="main">
       <section class="hero" id="hero">
         <div class="hero__wrapper">
-          <div class="hero__column hero__column--logo">
+          <div class=" hero__column--logo">
             <h1 class="hero__logo">D<span style="color: #3185fc;">&</span>K</h1>
             <p class="hero__logo hero__logo--special">Wagi Kasy</p>
           </div>
+          <div class="dumb"><img src="./img/sp.png" class="dumb__photo" alt="Zdjęcia główne"></div>
+        <div class="dumb"><img src="./img/sp.png" class="dumb__photo" alt="Zdjęcia główne"></div>
           <section class="hero__column--description">
             <h2 class="hero__title">Witamy na naszej stronie</h2>
             <p class="hero__paragraph">
@@ -145,13 +149,13 @@
         <h2 class="content__header content__header--dark">
           Najczęściej wybierane wagi
         </h2>
-        <div class="content__wrapper -narrow">
-          <p class="content__description -centered">
+        <div class="content__wrapper ">
+          <p class="content__description ">
             Wszystkie dostępne wagi wraz z opisem specyfikacji można zobaczyć w
             zakładce "Wagi"
           </p>
         </div>
-        <div class="content__wrapper -scales">
+        <div class="content__wrapper ">
           <div class="scales__wrapper">
             <img
               src="./img/elzab.jpg"
@@ -162,7 +166,7 @@
               Waga sklepowa CELY z legalizacją
             </p>
           </div>
-          <div class="cash__wrapper">
+          <div class="scales__wrapper">
             <img
               src="./img/dibal.jpg"
               class="scales__photo"
@@ -172,7 +176,7 @@
               Waga sklepowa DIBAL z legalizacją
             </p>
           </div>
-          <div class="cash__wrapper">
+          <div class="scales__wrapper">
             <img
               src="./img/dibal1.jpg"
               class="scales__photo"
@@ -224,5 +228,6 @@
       Wszelkie prawa zastrzeżone &copy; 2020. Dziękujemy za odwiedzenie naszej
       strony!
     </footer>
+    <script src="main.js"></script>
   </body>
 </html>
