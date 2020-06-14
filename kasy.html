@@ -1,204 +1,59 @@
 <!DOCTYPE html>
 <html lang="pl">
   <head>
-    <meta charset="utf-8" />
-    <title>D&K Wagi, Kasy, Łódź - Serwis, Sprzedaż, Legalizacja</title>
-    <meta
-      name="description"
-      content="D&K Spokoserwis w Łodzi prowadzi sprzedaż, serwis i legalizację wag wszystkich rodzajów. Zajmujemy się wagami kompleksowo. "
-    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="keywords"
       content="kasa, kasy, waga, wagi, naprawa, serwis, legalizacja, waga samochodowa, waga najazdowa, waga szalkowa"
     />
-    <meta name="author" content="Filip Grzelak" />
-    <link rel="stylesheet" href="normalize.css" type="text/css" />
-    <link rel="stylesheet" href="style.css" type="text/css" />
-    <link rel="stylesheet" href="./fontello/css/fontello.css" type="text/css"/>
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=latin-ext"
-      rel="stylesheet"
+    <meta
+      name="description"
+      content="D&K Spokoserwis w Łodzi prowadzi sprzedaż, serwis i legalizację wag wszystkich rodzajów, a także sprzedaż i serwis kas fiskalnych online"
     />
+    <meta name="author" content="Filip Grzelak" />
+    <title>D&K Wagi Kasy</title>
+    <link rel="stylesheet" href="./normalize.css" type="text/css" />
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+    <link rel="stylesheet" href="./fontello/css/fontello.css" type="text/css" />
   </head>
-
   <body>
-    <header id="header">
-      <div id="wrapper">
-        <div class="logo"><img src="./img/sp.png" alt="logo" /></div>
-        <div class="name">
-          <h1 class="toph">
-            D<span style="color: #2288ff;">&</span>K Wagi Kasy
-          </h1>
-        </div>
-        <div style="clear: both;"></div>
+    <header class="header">
+      <div class="header__wrapper">
+        <a class="header__top" href="#hero" title="Wróć na górę strony"
+          ><img src="./img/sp.png" class="logo" alt="logo firmy d&k kasy wagi"
+        /></a>
+       
+        <nav class="navigation navigation--js">
+          <ul class="navigation__list">
+            <li class="navigation__list">
+              <a class="navigation__link" href="index.html">Strona główna</a>
+            </li>
+            <li class="navigation__list">
+              <a class="navigation__link" href="oferta.html">Oferta</a>
+            </li>
+            <li class="navigation__list">
+              <a class="navigation__link" href="kasy.html">Kasy</a>
+            </li>
+            <li class="navigation__list">
+              <a class="navigation__link" href="wagi.html">Wagi</a>
+            </li>
+            <li class="navigation__list">
+              <a class="navigation__link" href="kontakt.html">Kontakt</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="hamburger hamburger--js">FG</button>
       </div>
     </header>
-    <div class="navy">
-      <nav id="topnav">
-        <ul class="menu">
-          <li><a href="index.html">Strona główna</a></li>
-          <li><a href="oferta.html">Oferta</a></li>
-          <li><a href="kasy.html">Kasy fiskalne</a></li>
-          <li><a href="wagi.html">Wagi</a></li>
-          <li><a href="kontakt.html">Kontakt</a></li>
-        </ul>
-      </nav>
-    </div>
+    <main class="main">
 
-    <main>
-      <section>
-        <div class="wstep">
-          <header>
-            <h2>Kasy fiskalne</h2>
-            <p class="kk">
-              Kasy fiskalne w ofercie D&K Spokoserwis to urządzenia
-              jednostanowiskowe, systemowe oraz drukarki fiskalne firm
-              <span class="ll">SHARP, POSNET i NOVITUS</span>.
-            </p>
-
-            <p class="kk">
-              Zajmujemy się zarówno prostymi instalacjami jak i systemami kas
-              fiskalnych w połączeniu z implementacją systemów komputerowych do
-              sprzedaży. Sprzedaż kasy jest dla nas nie końcem a początkiem
-              obsługi klienta. Kupując kasę w naszej firmie klient ma pewność,
-              że będzie ona użytkowana zgodnie z przepisami a jej możliwości
-              zostaną wykorzystane w najlepszy, możliwy dla niego sposób.
-            </p>
-
-            <p class="kk">
-              W cenie zakupu każdej kasy klient otrzymuje programowanie,
-              szkolenie, ufiskalnienie i koszty dojazdu w Łodzi i okolicach.
-              Dzięki temu nie ponosi dodatkowych kosztów i otrzymuje maksymalny
-              zwrot podatku na zakup kasy (do 90% wartości netto nie więcej niż
-              700zł na jedną kasę).
-            </p>
-
-            <h2>Uwaga</h2>
-            <p class="kk">
-              -
-              <span class="ll" style="font-size: 20px;"
-                >całkowity koszt obowiązkowego przeglądu okresowego kasy w
-                naszej firmie wynosi
-                <span style="text-decoration: underline; color: white;"
-                  >150zł</span
-                > netto. Takiego przeglądu trzeba dokonywać raz na dwa lata.</span
-              >
-            </p>
-
-            <p class="kk">
-              Klient kupując kasę jest przypisany do jednego serwisu. Warto o
-              tym pamiętać aby uniknąć wysokich kosztów w przyszłości.
-            </p>
-          </header>
-        </div>
-      </section>
-      <section>
-        <div class="entries">
-          <div class="entry">
-            <h3>Mobilna kasa fiskalna NANO online</h3>
-            <div class="entryimg">
-              <img class="fotok" src="./img/nano.jpg" alt="NANO " />
-            </div>
-            <div class="entrytxt">
-              <p class="des">
-                Mobilna kasa fiskalna NANO online to kwintesencja ergonomii i
-                designu, przeznaczona do pracy w mobilnych punktach handlowych,
-                gastronomicznych i usługowych oraz wszędzie tam, gdzie trudno
-                zmieścić większe urządzenia fiskalne. Jest to najmniejsza kasa
-                fiskalna w ofercie NOVITUS, która jednocześnie obsługuje
-                komunikację z Centralnym Repozytorium Kas (CRK), zgodnie z
-                wymogami Rozporządzenia Ministra
-              </p>
-            </div>
-            <p class="cena">Cena netto: 1490,00 PLN</p>
-          </div>
-
-          <div class="entry">
-            <h3>Kasa fiskalna Ergo online</h3>
-            <div class="entryimg">
-              <img class="fotok" src="./img/ergo.jpg" alt="Ergo " />
-            </div>
-            <div class="entrytxt">
-              <p class="des">
-                Jedna z najbardziej popularnych kas fiskalnych na rynku Posnet
-                ERGO teraz dostępna w wersji ONLINE. Urządzenie, dzięki
-                modułowej konstrukcji, zapewnia użytkownikowi swobodę wyboru
-                między przewodowym lub bezprzewodowym połączeniem z Centralnym
-                Repozytorium Kas (CRK).Nowoczesny wygląd, wzornictwo i unikalne
-                kolory sprawiają, że doskonale wkomponuje się w każdy wystrój
-                punktu handlowego.
-              </p>
-            </div>
-            <p class="cena">Cena netto: 1249,00 PLN</p>
-          </div>
-          <div class="entry">
-            <h3>Lubelska kasa fiskalna online</h3>
-            <div class="entryimg">
-              <img class="fotok" src="./img/lubelska.jpg" alt="Lubelska " />
-            </div>
-            <div class="entrytxt">
-              <p class="des">
-                To pierwsza kasa produkowana przez spółkę Lubelskie Fabryki Wag
-                FAWAG S.A. w wersji ONLINE. Jest mała, solidna i prosta w
-                obsłudze, a także ergonomiczna i funkcjonalna. Można do niej
-                podpiąć szufladę kasjerską, skaner kodów kreskowych, wagę,
-                terminal płatniczy i komputer. W wersji ONLINE posiada dwa porty
-                szeregowe RS232 oraz złącze LAN/Ethernet, służące do komunikacji
-                z Centralnym Repozytorium Kas.
-              </p>
-            </div>
-            <p class="cena">Cena netto: 1299,00 PLN</p>
-          </div>
-
-          <div class="entry">
-            <h3>Kasa fiskalna EURO 50TE MINI</h3>
-            <div class="entryimg">
-              <img class="fotok" src="./img/euro.jpg" alt="EURO " />
-            </div>
-            <div class="entrytxt">
-              <p class="des">
-                Kasa Euro 50TE mini wykonana jest według najnowszych technologii
-                i aktualnych trendów projektanckich, dzięki czemu jest
-                ergonomiczna, poręczna oraz prosta w obsłudze i konfiguracji.
-                Małe rozmiary kasy i niewielki ciężar ułatwiają jej
-                przenoszenie, a wbudowana wydajna bateria pozwala na prowadzenie
-                sprzedaży w miejscach, w których brak jest dostępu do sieci
-                elektrycznej. Kasa ta nie jest online.
-              </p>
-            </div>
-            <p class="cena">Cena netto: 1249,00 PLN</p>
-          </div>
-
-          <div class="entry">
-            <h3>Kasa fiskalna Posnet Mobile HS EJ</h3>
-            <div class="entryimg">
-              <img class="fotok" src="./img/mobile.jpg" alt="Posnet Mobile " />
-            </div>
-            <div class="entrytxt">
-              <p class="des">
-                Kasa fiskalna Posnet Mobile HS EJ to najmniejsza i najlżejsza
-                kasa fiskalna na rynku! Bez trudu zmieści się w podręcznej
-                torbie, a nawet kieszeni. Kasa Mobile HS EJ to urządzenie
-                wysokiej jakości, zaprojektowane i wykonane z niezwykłą
-                dbałością o detale. Wyjątkowo prosta obsługa, wytrzymała bateria
-                i gotowość na eurofiskalizację czynią z niej doskonałe
-                urządzenie do długotrwałej pracy mobilnej.
-              </p>
-            </div>
-            <p class="cena">Cena netto: 1199,00 PLN</p>
-          </div>
-        </div>
-      </section>
-
-      <div class="button">
-        <a class="bluebutton" href="kontakt.html">Kontakt</a>
-      </div>
-      <a href="#header" class="top-button"><i class="icon-up-open"></i></a>
     </main>
-
-    <footer id="foot">
+    <a href="#hero" class="scroll-up"><i class="icon-up-open"></i></a>
+    <footer class="footer">
       Wszelkie prawa zastrzeżone &copy; 2020. Dziękujemy za odwiedzenie naszej
       strony!
     </footer>
+    <script src="main.js"></script>
   </body>
 </html>
