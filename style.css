@@ -54,14 +54,14 @@ body {
 
 .navigation--open {
   display: block;
-  margin-top: 4rem;
+  margin-top: 3rem;
   margin-left: auto;
   margin-right: auto;
 }
 
 .navigation__list {
   list-style-type: none;
-  margin: 0 0 16px;
+  margin: 0;
   padding: 0;
   text-align: center;
   border-bottom: 1px dashed #ffffff;
@@ -77,7 +77,7 @@ body {
   text-decoration: none;
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
   font-weight: 400;
-  padding: 1rem;
+  padding: 1.5rem;
   display: block;
 }
 
@@ -347,6 +347,7 @@ p {
   .navigation__link {
     display: block;
     margin-left: 16px;
+    padding: 1rem;
   }
 
   .navigation {
