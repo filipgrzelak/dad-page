@@ -23,9 +23,9 @@
         <a class="header__top" href="#hero" title="Wróć na górę strony"
           ><img src="./img/sp.png" class="logo" alt="logo firmy d&k kasy wagi"
         /></a>
-       
+
         <nav class="navigation navigation--js">
-          <ul class="navigation__list">
+          <ul class="navigation__list navigation__list--special">
             <li class="navigation__list">
               <a class="navigation__link" href="index.html">Strona główna</a>
             </li>
@@ -38,23 +38,39 @@
             <li class="navigation__list">
               <a class="navigation__link" href="wagi.html">Wagi</a>
             </li>
-            <li class="navigation__list">
+            <li class="navigation__list navigation__list--special">
               <a class="navigation__link" href="kontakt.html">Kontakt</a>
             </li>
           </ul>
         </nav>
-        <button class="hamburger hamburger--js">FG</button>
+        <button class="hamburger hamburger--js">
+          <svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="24" onclick="this.classList.toggle('active')">
+            <path
+                  class="line top"
+                  d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+            <path
+                  class="line middle"
+                  d="m 30,50 h 40" />
+            <path
+                  class="line bottom"
+                  d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+          </svg>
+        </button>
       </div>
     </header>
     <main class="main">
       <section class="hero" id="hero">
         <div class="hero__wrapper">
-          <div class=" hero__column--logo">
+          <div class="hero__column--logo">
             <h1 class="hero__logo">D<span style="color: #3185fc;">&</span>K</h1>
             <p class="hero__logo hero__logo--special">Wagi Kasy</p>
           </div>
-          <div class="dumb"><img src="./img/sp.png" class="dumb__photo" alt="Zdjęcia główne"></div>
-        <div class="dumb"><img src="./img/sp.png" class="dumb__photo" alt="Zdjęcia główne"></div>
+          <div class="dumb">
+            <img src="./img/sp.png" class="dumb__photo" alt="Zdjęcia główne" />
+          </div>
+          <div class="dumb">
+            <img src="./img/sp.png" class="dumb__photo" alt="Zdjęcia główne" />
+          </div>
           <section class="hero__column--description">
             <h2 class="hero__title">Witamy na naszej stronie</h2>
             <p class="hero__paragraph">
@@ -149,13 +165,13 @@
         <h2 class="content__header content__header--dark">
           Najczęściej wybierane wagi
         </h2>
-        <div class="content__wrapper ">
-          <p class="content__description ">
+        <div class="content__wrapper">
+          <p class="content__description">
             Wszystkie dostępne wagi wraz z opisem specyfikacji można zobaczyć w
             zakładce "Wagi"
           </p>
         </div>
-        <div class="content__wrapper ">
+        <div class="content__wrapper">
           <div class="scales__wrapper">
             <img
               src="./img/elzab.jpg"
@@ -190,9 +206,7 @@
         <h2 class="content__header">
           Rozporządzenie ministra finansów dot. kas fiskalnych 2019
         </h2>
-        <div
-          class="content__wrapper content__wrapper--text"
-        >
+        <div class="content__wrapper content__wrapper--text">
           <p>
             1) sposób prowadzenia ewidencji sprzedaży przy zastosowaniu kas
             rejestrujących, zwanej dalej „ewidencją”, w tym o zastosowaniu

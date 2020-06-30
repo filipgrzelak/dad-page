@@ -23,9 +23,9 @@
         <a class="header__top" href="#hero" title="Wróć na górę strony"
           ><img src="./img/sp.png" class="logo" alt="logo firmy d&k kasy wagi"
         /></a>
-       
+
         <nav class="navigation navigation--js">
-          <ul class="navigation__list">
+          <ul class="navigation__list navigation__list--special">
             <li class="navigation__list">
               <a class="navigation__link" href="index.html">Strona główna</a>
             </li>
@@ -38,16 +38,175 @@
             <li class="navigation__list">
               <a class="navigation__link" href="wagi.html">Wagi</a>
             </li>
-            <li class="navigation__list">
+            <li class="navigation__list navigation__list--special">
               <a class="navigation__link" href="kontakt.html">Kontakt</a>
             </li>
           </ul>
         </nav>
-        <button class="hamburger hamburger--js">FG</button>
+        <button class="hamburger hamburger--js"><svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="24" onclick="this.classList.toggle('active')">
+          <path
+                class="line top"
+                d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+          <path
+                class="line middle"
+                d="m 30,50 h 40" />
+          <path
+                class="line bottom"
+                d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+        </svg></button>
       </div>
     </header>
     <main class="main">
+      <section class="hero-cashRegister" id="hero">
+        <h1 class="hero-cashRegister__header">Kasy fiskalne</h1>
+        <div class="line"></div>
+      </section>
+      <section class="cashRegister cashRegister--special" id="kasy">
+        <h2 class="cashRegister__header">Oferta</h2>
+        <div class="cashRegister__wrapper cashRegister__wrapper--text">
+          <p>
+            Kasy fiskalne w ofercie D&K Spokoserwis to urządzenia
+            jednostanowiskowe, systemowe oraz drukarki fiskalne firm
+            <span class="green">SHARP, POSNET i NOVITUS</span>.
+          </p>
 
+          <p>
+            Zajmujemy się zarówno prostymi instalacjami jak i systemami kas
+            fiskalnych w połączeniu z implementacją systemów komputerowych do
+            sprzedaży. Sprzedaż kasy jest dla nas nie końcem a początkiem
+            obsługi klienta. Kupując kasę w naszej firmie klient ma pewność, że
+            będzie ona użytkowana zgodnie z przepisami a jej możliwości zostaną
+            wykorzystane w najlepszy, możliwy dla niego sposób.
+          </p>
+
+          <p>
+            W cenie zakupu każdej kasy klient otrzymuje programowanie,
+            szkolenie, ufiskalnienie i koszty dojazdu w Łodzi i okolicach.
+            Dzięki temu nie ponosi dodatkowych kosztów i otrzymuje maksymalny
+            zwrot podatku na zakup kasy (do 90% wartości netto nie więcej niż
+            700zł na jedną kasę).
+          </p>
+        </div>
+      </section>
+      <section class="cashRegister cashRegister--special" id="legalizacja">
+        <h2 class="cashRegister__header cashRegister__header--attention">
+          Uwaga !!!
+        </h2>
+        <div class="cashRegister__wrapper cashRegister__wrapper--textBorder">
+          <p>
+            Całkowity koszt obowiązkowego przeglądu okresowego kasy w naszej
+            firmie wynosi
+            <span class="price">150zł</span>
+            netto. Takiego przeglądu trzeba dokonywać raz na dwa lata.
+          </p>
+        </div>
+      </section>
+      <section class="cashRegister cashRegister--special">
+        <h2 class="cashRegister__header">Kasy fiskalne w naszej ofercie:</h2>
+        <div class="cashRegister__wrapper">
+          <div class="cashRegister__wrapper-photo">
+            <img
+              src="./img/nano.jpg"
+              alt="Kasa fiskalna nano"
+              class="cashRegister__photo"
+            />
+          </div>
+          <div class="cashRegister__wrapper-text">
+            <p>
+              Mobilna kasa fiskalna NANO online to kwintesencja ergonomii i
+              designu, przeznaczona do pracy w mobilnych punktach handlowych,
+              gastronomicznych i usługowych oraz wszędzie tam, gdzie trudno
+              zmieścić większe urządzenia fiskalne. Jest to najmniejsza kasa
+              fiskalna w ofercie NOVITUS, która jednocześnie obsługuje
+              komunikację z Centralnym Repozytorium Kas (CRK), zgodnie z
+              wymogami Rozporządzenia Ministra
+            </p>
+            <p class="price">Cena netto: 1490,00 PLN</p>
+          </div>
+          <div class="cashRegister-line"></div>
+          <div class="cashRegister__wrapper-photo">
+            <img
+              src="./img/ergo.jpg"
+              alt="Kasa fiskalna ergo"
+              class="cashRegister__photo"
+            />
+          </div>
+          <div class="cashRegister__wrapper-text">
+            <p>
+              Kasa fiskalna Ergo online - Jedna z najbardziej popularnych kas
+              fiskalnych na rynku Posnet ERGO teraz dostępna w wersji ONLINE.
+              Urządzenie, dzięki modułowej konstrukcji, zapewnia użytkownikowi
+              swobodę wyboru między przewodowym lub bezprzewodowym połączeniem z
+              Centralnym Repozytorium Kas (CRK).Nowoczesny wygląd, wzornictwo i
+              unikalne kolory sprawiają, że doskonale wkomponuje się w każdy
+              wystrój punktu handlowego.
+            </p>
+            <p class="price">Cena netto: 1249,00 PLN</p>
+          </div>
+
+          <div class="cashRegister-line"></div>
+          <div class="cashRegister__wrapper-photo">
+            <img
+              src="./img/lubelska.jpg"
+              alt="Kasa fiskalna lubelska"
+              class="cashRegister__photo"
+            />
+          </div>
+          <div class="cashRegister__wrapper-text">
+            <p>
+              To pierwsza kasa produkowana przez spółkę Lubelskie Fabryki Wag
+              FAWAG S.A. w wersji ONLINE. Jest mała, solidna i prosta w
+              obsłudze, a także ergonomiczna i funkcjonalna. Można do niej
+              podpiąć szufladę kasjerską, skaner kodów kreskowych, wagę,
+              terminal płatniczy i komputer. W wersji ONLINE posiada dwa porty
+              szeregowe RS232 oraz złącze LAN/Ethernet, służące do komunikacji z
+              Centralnym Repozytorium Kas.
+            </p>
+            <p class="price">Cena netto: 1299,00 PLN</p>
+          </div>
+          <div class="cashRegister-line"></div>
+          <div class="cashRegister__wrapper-photo">
+            <img
+              src="./img/euro.jpg"
+              alt="Kasa fiskalna euro"
+              class="cashRegister__photo"
+            />
+          </div>
+          <div class="cashRegister__wrapper-text">
+            <p>
+              Kasa Euro 50TE mini wykonana jest według najnowszych technologii
+                i aktualnych trendów projektanckich, dzięki czemu jest
+                ergonomiczna, poręczna oraz prosta w obsłudze i konfiguracji.
+                Małe rozmiary kasy i niewielki ciężar ułatwiają jej
+                przenoszenie, a wbudowana wydajna bateria pozwala na prowadzenie
+                sprzedaży w miejscach, w których brak jest dostępu do sieci
+                elektrycznej. Kasa ta nie jest online.
+            </p>
+            <p class="price">Cena netto: 1249,00 PLN</p>
+          </div>
+
+          <div class="cashRegister-line"></div>
+          <div class="cashRegister__wrapper-photo">
+            <img
+              src="./img/mobile.jpg"
+              alt="Kasa fiskalna mobile"
+              class="cashRegister__photo"
+            />
+          </div>
+          <div class="cashRegister__wrapper-text">
+            <p>
+              Kasa fiskalna Posnet Mobile HS EJ to najmniejsza i najlżejsza
+                kasa fiskalna na rynku! Bez trudu zmieści się w podręcznej
+                torbie, a nawet kieszeni. Kasa Mobile HS EJ to urządzenie
+                wysokiej jakości, zaprojektowane i wykonane z niezwykłą
+                dbałością o detale. Wyjątkowo prosta obsługa, wytrzymała bateria
+                i gotowość na eurofiskalizację czynią z niej doskonałe
+                urządzenie do długotrwałej pracy mobilnej.
+            </p>
+            <p class="price">Cena netto: 1199,00 PLN</p>
+          </div>
+        </div>
+      </section>
     </main>
     <a href="#hero" class="scroll-up"><i class="icon-up-open"></i></a>
     <footer class="footer">
