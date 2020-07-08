@@ -43,17 +43,24 @@
             </li>
           </ul>
         </nav>
-        <button class="hamburger hamburger--js"><svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="24" onclick="this.classList.toggle('active')">
-          <path
-                class="line top"
-                d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
-          <path
-                class="line middle"
-                d="m 30,50 h 40" />
-          <path
-                class="line bottom"
-                d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
-        </svg></button>
+        <button class="hamburger hamburger--js">
+          <svg
+            class="ham hamRotate ham1"
+            viewBox="0 0 100 100"
+            width="24"
+            onclick="this.classList.toggle('active')"
+          >
+            <path
+              class="line top"
+              d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40"
+            />
+            <path class="line middle" d="m 30,50 h 40" />
+            <path
+              class="line bottom"
+              d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40"
+            />
+          </svg>
+        </button>
       </div>
     </header>
     <main class="main">
@@ -115,23 +122,19 @@
         </div>
       </section>
       <section>
-        <h2 class="contact__header contact__header--special">Wskazówki dotyczące dojazdu</h2>
-        <div class="contact__wrapper contact__wrapper--text">
-          <p>
-            Mapa dojazdu od Alei Piłsudskiego (wjazd za czerwonym biurowcem-
-            Piłsudskiego 133d naprzeciw marketu Auchan)
-          </p>
-        </div>
+        <h2 class="contact__header contact__header--special">
+          Mapa dojazdu
+        </h2>
       </section>
       <div class="map">
-        <a
-          href="https://www.google.pl/maps/dir/51.7626417,19.4993969/D+%26+K+Spokoserwis,+al.+Marsza%C5%82ka+J%C3%B3zefa+Pi%C5%82sudskiego+135H,+92-318+%C5%81%C3%B3d%C5%BA/@51.7618216,19.4999737,17.5z/data=!4m8!4m7!1m0!1m5!1m1!1s0x471bcb4dd82d1999:0xa2f279781eee5623!2m2!1d19.5034907!2d51.7612163"
-        >
-          <img
-            src="./img/mapa.jpg"
-            class="map__photo"
-            alt="zdjęcie mapy dojazdowej"
-        /></a>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2469.458961176285!2d19.501302015666997!3d51.76121627967758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471bcb4dd82d1999%3A0xa2f279781eee5623!2sD%20%26%20K%20Spokoserwis!5e0!3m2!1spl!2spl!4v1594035431021!5m2!1spl!2spl"
+          width="1000"
+          height="450"
+          style="border: 0;"
+          aria-hidden="false"
+          tabindex="0"
+        ></iframe>
       </div>
     </main>
     <a href="#hero" class="scroll-up"><i class="icon-up-open"></i></a>
