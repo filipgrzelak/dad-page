@@ -105,7 +105,7 @@ body {
 }
 
 .dumb__photo {
-  width: 60%;
+  width: 50%;
 }
 
 .hero__title {
@@ -124,11 +124,11 @@ body {
 .hero__column--description {
   width: 100%;
   color: #fff;
-  font-size: 3rem;
+  font-size: 4.5rem;
 }
 
 .hero__logo {
-  font-size: 6rem;
+  font-size: 8rem;
   letter-spacing: 4px;
   margin: 0.5rem;
   font-weight: 400;
@@ -146,7 +146,7 @@ body {
   padding-top: 40px;
   background: #ffffff;
   padding-bottom: 20px;
-  min-height: 60vh;
+  min-height: 40vh;
 }
 
 .content--special {
@@ -335,6 +335,8 @@ p {
   width: 100%;
   color: #fff;
   font-size: 1.5rem;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 @media (min-width: 768px) {
@@ -385,16 +387,18 @@ p {
   .hero__column--logo {
     width: 60%;
     align-items: center;
+    justify-content: center;
     display: flex;
     min-height: 40vh;
   }
 
   .hero__column--title {
-    width: 60%;
+    width: 100%;
     color: #fff;
     font-size: 4rem;
     display: flex;
     align-items: center;
+    padding-bottom: 16px;
   }
 
   .hero__column--description {
@@ -754,6 +758,8 @@ p {
   width: 100%;
 }
 
+
+
 .mainScales__wrapper-text {
   max-width: 100%;
 }
@@ -796,5 +802,36 @@ p {
     height: 136px;
     display: block;
     padding: 1rem;
+  }
+
+  .mainScales__photo--higher{
+    height: 190px;
+  }
+
+  .discout{
+    position: fixed;
+    right: 0;
+    top:100px;
+    height: 50px;
+    overflow: hidden;
+    width: 138px;
+    background-color: #43484c;
+    color: white;
+    border-radius: 4px;
+    transition-duration: .4s;
+  }
+
+  .discout:hover{
+    height: 260px;
+    width: 138px;
+    background-color: #32373b;
+  }
+
+  .discout__title{
+    text-align: center;
+  }
+
+  .discout__description{
+    margin: 8px;
   }
 }
