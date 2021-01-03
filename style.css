@@ -808,6 +808,10 @@ p {
     display: block;
     padding: 1rem;
   }
+
+  .mainScales__photo--higher{
+    height: 190px;
+  }
 }
 
 @media (min-width: 1024px) {
